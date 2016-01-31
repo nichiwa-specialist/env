@@ -31,3 +31,6 @@ gradle
 
 intellij IDEA Community
 : AndroidやGAE/goなど、さまざまな開発に利用できるJava製のIDE。
+
+Google App Engine SDK for Go
+: Google App Engine上で動くアプリケーションをGoで開発するためのSDK。Pythonで書かれている。
