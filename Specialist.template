@@ -1,0 +1,84 @@
+{
+  "AWSTemplateFormatVersion": "2010-09-09",
+  "Metadata": {
+    "AWS::CloudFormation::Designer": {
+      "906f4011-4a71-40b3-a4e9-aedf7940c1a6": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 150,
+          "y": 80
+        },
+        "z": 0,
+        "embeds": []
+      },
+      "9a6486c6-4604-42c5-8a03-665c89a24b07": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 220,
+          "y": 80
+        },
+        "z": 0,
+        "embeds": []
+      },
+      "e3cb8b91-e1bd-4dcd-bed1-9c87319616a0": {
+        "size": {
+          "width": 60,
+          "height": 60
+        },
+        "position": {
+          "x": 290,
+          "y": 80
+        },
+        "z": 0,
+        "embeds": []
+      }
+    }
+  },
+  "Resources": {
+    "EC2I3DXGN": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "ImageId": "ami-281ad849",
+        "InstanceType": "t2.large",
+        "KeyName" : "Specialist"
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "906f4011-4a71-40b3-a4e9-aedf7940c1a6"
+        }
+      }
+    },
+    "EC2I47HGS": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "ImageId": "ami-281ad849",
+        "InstanceType": "t2.large",
+        "KeyName" : "Specialist"
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "9a6486c6-4604-42c5-8a03-665c89a24b07"
+        }
+      }
+    },
+    "EC2I2IOAU": {
+      "Type": "AWS::EC2::Instance",
+      "Properties": {
+        "ImageId": "ami-281ad849",
+        "InstanceType": "t2.large",
+        "KeyName" : "Specialist"
+      },
+      "Metadata": {
+        "AWS::CloudFormation::Designer": {
+          "id": "e3cb8b91-e1bd-4dcd-bed1-9c87319616a0"
+        }
+      }
+    }
+  }
+}
