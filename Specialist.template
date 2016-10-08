@@ -44,7 +44,7 @@
     "EC2I3DXGN": {
       "Type": "AWS::EC2::Instance",
       "Properties": {
-        "ImageId": "ami-281ad849",
+        "ImageId": "ami-0f19db6e",
         "InstanceType": "t2.large",
         "KeyName" : "Specialist"
       },
@@ -57,7 +57,7 @@
     "EC2I47HGS": {
       "Type": "AWS::EC2::Instance",
       "Properties": {
-        "ImageId": "ami-281ad849",
+        "ImageId": "ami-0f19db6e",
         "InstanceType": "t2.large",
         "KeyName" : "Specialist"
       },
@@ -70,7 +70,7 @@
     "EC2I2IOAU": {
       "Type": "AWS::EC2::Instance",
       "Properties": {
-        "ImageId": "ami-281ad849",
+        "ImageId": "ami-0f19db6e",
         "InstanceType": "t2.large",
         "KeyName" : "Specialist"
       },
