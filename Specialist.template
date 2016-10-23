@@ -50,7 +50,7 @@
         "UserData" : { "Fn::Base64" : { "Fn::Join" : ["", [
           "<powershell>\n"
           "iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex"
-          "cinst ruby chef-client github atom jdk8 gradle intellijidea-community"
+          "cinst -y ruby chef-client github atom jdk8 gradle intellijidea-community"
           "</powershell>"
         ]]}}
       },
@@ -69,7 +69,7 @@
         "UserData" : { "Fn::Base64" : { "Fn::Join" : ["", [
           "<powershell>\n"
           "iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex"
-          "cinst ruby chef-client github atom jdk8 gradle intellijidea-community gae-go"
+          "cinst -y ruby chef-client github atom jdk8 gradle intellijidea-community gae-go"
           "</powershell>"
         ]]}}
       },
@@ -88,7 +88,7 @@
         "UserData" : { "Fn::Base64" : { "Fn::Join" : ["", [
           "<powershell>\n"
           "iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex"
-          "cinst ruby chef-client github atom visualstudio2015community"
+          "cinst -y ruby chef-client github atom visualstudio2015community"
           "</powershell>"
         ]]}}
       },
