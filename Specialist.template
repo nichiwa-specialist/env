@@ -42,9 +42,10 @@
   },
   "Parameters": {
     "AMIImageid": {
-      "Description" : "input EC2 ImageID",
+      "Description" : "select EC2 ImageID",
       "Type": "AWS::EC2::Image::Id",
-      "Default": "ami-c2c574a3"
+      "AllowedValues" : ["ami-c2c574a3", "ami-26a10b47"],
+      "Default": "ami-26a10b47"
     },
     "InstanceType" : {
       "Type" : "String",
