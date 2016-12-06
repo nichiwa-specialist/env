@@ -69,7 +69,7 @@
           "BlockDeviceMappings" : [
             {
               "DeviceName" : "/dev/sda1",
-              "Ebs" : { "VolumeSize" : { Ref" : "CDriveSize" }
+              "Ebs" : { "VolumeSize" : { Ref" : "CDriveSize" } }
             }
           ],
         "KeyName" : "Specialist",
@@ -94,7 +94,7 @@
         "BlockDeviceMappings" : [
           {
             "DeviceName" : "/dev/sda1",
-            "Ebs" : { "VolumeSize" : { Ref" : "CDriveSize" }
+            "Ebs" : { "VolumeSize" : { Ref" : "CDriveSize" } }
           }
         ],
         "KeyName" : "Specialist",
@@ -119,7 +119,7 @@
         "BlockDeviceMappings" : [
           {
             "DeviceName" : "/dev/sda1",
-            "Ebs" : { "VolumeSize" : { Ref" : "CDriveSize" }
+            "Ebs" : { "VolumeSize" : { Ref" : "CDriveSize" } }
           }
         ],
         "KeyName" : "Specialist",
